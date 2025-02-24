@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+ body .container {
+  margin-top: 50px; 
+  width: 450px;
+}
+
+ h1 {
+  font-family: sans-serif;
+  background-color: #faf6f5;
+  /* font-size: 1.0rem; */
+  margin-bottom: 10px;
+
+}
+
+p {
+  font-family: sans-serif;
+  background-color: #f7beb0;
+  /* font-size: 1.0rem; */
+  margin-bottom: 10px;
+}
