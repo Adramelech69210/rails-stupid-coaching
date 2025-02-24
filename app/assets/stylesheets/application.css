@@ -15,7 +15,7 @@
  */
 
  body .container {
-  margin-top: 50px; 
+  margin-top: 50px;
   width: 450px;
 }
 
@@ -27,9 +27,16 @@
 
 }
 
-p {
+#question {
   font-family: sans-serif;
-  background-color: #f7beb0;
+  background-color: #eceaea;
+  /* font-size: 1.0rem; */
+  margin-bottom: 10px;
+}
+
+#response {
+  font-family: sans-serif;
+  background-color: #fcc7c7;
   /* font-size: 1.0rem; */
   margin-bottom: 10px;
 }

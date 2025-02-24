@@ -3,8 +3,9 @@
       <p><%= @question %></p>
       <p>-You</p>
   </div>
-
-  <p><%= @answer %></p>
-  <p>-Your coach</p>
+  <div id="response">
+    <p><%= @answer %></p>
+    <p>-Your coach</p>
+  </div>
   <%= link_to "Ask a new question", ask_path %>
 </div>
